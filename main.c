@@ -751,11 +751,10 @@ int main()
                 play_Game_Comp(difficulty_Choice);
             }
 
-            else; // menu to play against another
+            else // menu to play against another
             {
                 play_Game_1on1();
             }
-            
             break;
 
         case 2:
