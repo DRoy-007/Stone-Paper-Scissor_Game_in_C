@@ -3,16 +3,16 @@
 *.out
 *.exe
 
-# OS-specific files
+## OS-specific files
 .DS_Store
 Thumbs.db
 
-# VS Code settings
+### VS Code settings
 .vscode/
 
-# Log and temp files
+#### Log and temp files
 *.log
 *.tmp
 
-# Game score file
+##### Game score file
 scoreboard.txt
