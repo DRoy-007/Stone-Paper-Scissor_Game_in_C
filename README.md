@@ -1,14 +1,19 @@
-# Stone‑Paper‑Scissor Game (C)
+# 🕹️ Rock Paper Scissors Game in C
 
-A command‑line rock-paper-scissor game in C, playable against another person or the computer.
-Features include:
-- Easy, Medium, & Hard difficulty levels.
-- ASCII art, color-coded text.
-- Scoreboard logging to `scoreboard.txt`.
-- Battle-tested input validation.
+A fun and interactive Rock-Paper-Scissors terminal game written in C with colors, sound, and dramatic countdown effects!
 
-## How to compile & run
+## 🚀 Features
 
+- 1v1 player mode
+- ASCII animation & countdown
+- Scoreboard tracking
+- Sound effects
+- Smart input handling
+- Clean terminal UI (supports Windows/Linux)
+
+## 🛠️ How to Compile
+
+In Linux or MacOS
 ```bash
-gcc -o rps main.c
-./rps
+gcc main.c -o main
+

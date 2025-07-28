@@ -1,45 +1,18 @@
-# Compiled Object files
+# Ignore compiled files
 *.o
-*.obj
-
-# Compiled Binary files
-*.exe
 *.out
-*.a
-*.so
-*.dll
+*.exe
 
-# Debug files
-*.dSYM/
-*.stackdump
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 # VS Code settings
 .vscode/
 
-# Backup files
-*~
-*.bak
+# Log and temp files
+*.log
 *.tmp
 
-# Build directories
-build/
-Debug/
-Release/
-
-# Mac-specific
-.DS_Store
-
-# Windows-specific
-Thumbs.db
-desktop.ini
-
-# Logs
-*.log
-
-# CMake cache files
-CMakeCache.txt
-CMakeFiles/
-
-# Generated Makefiles
-Makefile
-cmake_install.cmake
+# Game score file
+scoreboard.txt
