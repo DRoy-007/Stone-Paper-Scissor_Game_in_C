@@ -13,7 +13,14 @@ A fun and interactive Stone-Paper-Scissors terminal game written in C with color
 
 ## 🛠️ How to Compile
 
+In Windows
+```bash
+gcc main.c -o main.exe
+./main.exe
+```
+
 In Linux or MacOS
 ```bash
 gcc main.c -o main
-
+./main
+```
