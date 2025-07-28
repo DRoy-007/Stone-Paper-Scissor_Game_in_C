@@ -1,6 +1,6 @@
-# 🕹️ Rock Paper Scissors Game in C
+# 🕹️ Stone Paper Scissors Game in C
 
-A fun and interactive Rock-Paper-Scissors terminal game written in C with colors, sound, and dramatic countdown effects!
+A fun and interactive Stone-Paper-Scissors terminal game written in C with colors, sound, and dramatic countdown effects!
 
 ## 🚀 Features
 
