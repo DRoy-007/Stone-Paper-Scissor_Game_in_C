@@ -110,11 +110,11 @@ void update_scoreboard_1on1(int player1_score, int player2_score, char player1[]
     time_t now = time(NULL);
     fprintf(file, "Date: %s", ctime(&now));
     if (player1_score > player2_score)
-        fprintf(file, "\n%s: %d | %s: %d | Result: >> %s WON 🏆    >> %s LOST 🤡\n", player1, player1_score, player2, player2_score, player1, player2);
+        fprintf(file, "%s: %d | %s: %d | Result: >> %s WON 🏆    >> %s LOST 🤡\n", player1, player1_score, player2, player2_score, player1, player2);
     else if (player1_score < player2_score)
-        fprintf(file, "\n%s: %d | %s: %d | Result: >> %s LOST 🤡    >> %s WON 🏆\n", player1, player1_score, player2, player2_score, player1, player2);
+        fprintf(file, "%s: %d | %s: %d | Result: >> %s LOST 🤡    >> %s WON 🏆\n", player1, player1_score, player2, player2_score, player1, player2);
     else
-        fprintf(file, "\n%s: %d | %s: %d | Result: >> DRAW 😑\n", player1, player1_score, player2, player2_score);
+        fprintf(file, "%s: %d | %s: %d | Result: >> DRAW 😑\n", player1, player1_score, player2, player2_score);
     fclose(file);
 }
 
@@ -124,11 +124,11 @@ void update_scoreboard(char name[], int player_score, int comp_Score)
     time_t now = time(NULL);
     fprintf(file, "Date: %s", ctime(&now));
     if (player_score > comp_Score)
-        fprintf(file, "\nPlayer: %s | You: %d | Comp: %d | Result: >> WON 🏆\n", name, player_score, comp_Score);
+        fprintf(file, "Player: %s | You: %d | Comp: %d | Result: >> WON 🏆\n\n", name, player_score, comp_Score);
     else if (player_score < comp_Score)
-        fprintf(file, "\nPlayer: %s | You: %d | Comp: %d | Result: >> LOST 🤡\n", name, player_score, comp_Score);
+        fprintf(file, "Player: %s | You: %d | Comp: %d | Result: >> LOST 🤡\n\n", name, player_score, comp_Score);
     else
-        fprintf(file, "\nPlayer: %s | You: %d | Comp: %d | Result: >> DRAW 😑\n", name, player_score, comp_Score);
+        fprintf(file, "Player: %s | You: %d | Comp: %d | Result: >> DRAW 😑\n\n", name, player_score, comp_Score);
     fclose(file);
 }
 
