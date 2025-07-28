@@ -773,10 +773,6 @@ int main()
         case 5:
             printf(YELLOW "\nGoodbye !!\n\n" RESET);
             break;
-
-        // default:
-        //     printf(RED "Invalid Choice!" RESET " Enter between 1 to 5: ");
-        //     scanf("%d", &main_menu_Choice);
         }
     } while (main_menu_Choice != 5); // this statement will repeat the loop again and again until or unless user enters 5 to exit from the game
 
