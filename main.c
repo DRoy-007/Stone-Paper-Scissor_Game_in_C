@@ -574,22 +574,22 @@ void play_Game_1on1()
 
     printf("Enter nickname of Player 1: ");
     scanf("%s", name1);
-    while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != "\0");
+    while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != '\0');
     while(check_other_char_than_alphabets(name1))
     {
         printf(RED "Invalid name!" RESET " Enter name containing characters only from A to Z or a to z: ");
         scanf("%s", name1);
-        while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != "\0");
+        while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != '\0');
     }
 
     printf("Enter nickname of Player 2: ");
     scanf("%s", name2);
-    while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != "\0");
+    while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != '\0');
     while(check_other_char_than_alphabets(name2))
     {
         printf(RED "Invalid name!" RESET " Enter name containing characters only from A to Z or a to z: ");
         scanf("%s", name2);
-        while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != "\0");
+        while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != '\0');
     }
 
     capitalize_first_word(name1);
@@ -658,13 +658,13 @@ void play_Game_Comp(int difficulty)
 
     printf("Enter your nick name: ");
     scanf("%s", name);
-    while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != "\0");
+    while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != '\0');
 
     while(check_other_char_than_alphabets(name))
     {
         printf(RED "Invalid name!" RESET " Enter name containing charcters from A to Z or a to z only: ");
         scanf("%s", name);
-        while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != "\0");
+        while((input_buffer_clearer = getchar()) != '\n' && input_buffer_clearer != '\0');
     }
 
     capitalize_first_word(name);
