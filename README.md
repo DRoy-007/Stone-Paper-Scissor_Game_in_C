@@ -46,9 +46,9 @@ gcc main.c -o main
 
 ## 📷 Image Preview
 
-Main Menu --> [Screenshot](images/img01-starting-menu.png)
+Main Menu --> [Screenshot](images/img01-starting-menu.png)  
 Gameplay (vs Computer) --> 01 [Screenshot](images/img02-gameplay-vs-comp1.png)
-                       --> 02 [Screenshot](images/img03-gameplay-vs-comp2.png)
+                       --> 02 [Screenshot](images/img03-gameplay-vs-comp2.png)  
 Scoreboard and Game exit --> [Screenshot](images/img04-game-score-end.png)
 
 
