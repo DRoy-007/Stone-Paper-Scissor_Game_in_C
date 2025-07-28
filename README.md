@@ -43,7 +43,7 @@ gcc main.c -o main
 👤 Debarpan Roy **_(DRoy-007)_**
 
 
-### 📜 License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/DRoy-007/Stone-Paper-Scissor_Game_in_C/blob/main/LICENSE) file for details.
 
